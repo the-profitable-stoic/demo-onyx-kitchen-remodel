@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Onyx Kitchen Remodel",
+    "phone": "555-kit-r93",
+    "category": "kitchen-remodel",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  "design": {
+    "preset": {
+      "id": "kitchen-remodel-dark-premium",
+      "categoryGroup": "kitchen-remodel",
+      "name": "Dark Premium",
+      "recipeFile": "kitchen-remodel/dark-premium.astro",
+      "colors": {
+        "primary": "#C4B5FD",
+        "primaryDark": "#9d91ca",
+        "primaryLight": "#e7e1fe",
+        "secondary": "#2A2A2A",
+        "accent": "#cdc0fd",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "kitchen-remodel/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Elevate Your Chicago Kitchen",
+      "heroSubline": "Transform your space with tailored designs built for Chicago living. From historic bungalows to modern condos, we craft kitchens that endure our harsh climate.",
+      "aboutTitle": "Crafting Chicago's Finest Kitchens",
+      "aboutText": [
+        "Founded in 2012, Onyx Kitchen Remodel grew from a single carpenter's vision into Chicago's trusted remodeling team. Our roots in Lincoln Park inform every project with authentic local craftsmanship.",
+        "We blend Chicago's architectural heritage with contemporary functionality. Every layout considers how real Cook County families cook, gather, and weather our extreme seasons.",
+        "When we're not installing custom cabinetry, you'll find us supporting neighborhood schools and sponsoring Logan Square's annual home tour."
+      ],
+      "valueProps": [
+        {
+          "title": "Chicago-Tested Materials",
+          "description": "We specify finishes that withstand lake-effect humidity and freeze-thaw cycles without sacrificing style."
+        },
+        {
+          "title": "Historic Home Specialists",
+          "description": "Our craftsmen preserve original charm while updating 1920s bungalows for modern living."
+        },
+        {
+          "title": "Suburb-Approved Designs",
+          "description": "From Naperville's family homes to Evanston's academics, we tailor layouts to each community's rhythm."
+        },
+        {
+          "title": "Full-Service Peace of Mind",
+          "description": "Permits, demolition, and final inspections handled by our licensed team—no juggling multiple contractors."
+        }
+      ],
+      "ctaHeadline": "Ready for Your Dream Kitchen?",
+      "ctaSubline": "Schedule a free design consultation with our Chicago-based team today."
+    },
+    "services": [
+      {
+        "slug": "custom-cabinetry",
+        "name": "Custom Cabinetry",
+        "shortDescription": "Handcrafted storage solutions designed for Chicago's unique homes.",
+        "description": "Chicago's historic architecture demands cabinetry that fits like it was always there. Our craftsmen build inset doors for Lincoln Park brownstones and space-saving pull-outs for Lakeview condos with precision joinery.\n\nWe use Midwest-sourced maple and walnut finished with moisture-resistant coatings to combat lake-effect humidity. Every design includes Chicago-specific touches—like deeper uppers for bulky winter cookware or integrated heating vents for drafty bungalows.\n\nFrom Hyde Park's professor homes needing library-style pantries to Schaumburg's busy families requiring kid-friendly storage, we tailor each configuration to how you actually live.",
+        "process": [
+          "Step 1: In-home assessment of existing space and structural limitations",
+          "Step 2: 3D rendering showing traffic flow and appliance access",
+          "Step 3: Wood selection from our local mill partners",
+          "Step 4: Professional installation with dust-containment systems"
+        ],
+        "benefits": [
+          "Framing adapted for Chicago's brick-and-plaster walls",
+          "Soft-close hardware rated for -20°F winters",
+          "Adjustable shelving for seasonal storage needs",
+          "Ventilation-compatible designs for older homes"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle uneven walls in old Chicago homes?",
+            "answer": "We scribe cabinets to fit irregular surfaces and use shim systems developed specifically for the area's settling foundations. No gap fillers needed."
+          },
+          {
+            "question": "Can you match my historic trim details?",
+            "answer": "Our workshop maintains profiles for common Chicago molding patterns from 1890-1940. We'll replicate your home's original character."
+          }
+        ]
+      },
+      {
+        "slug": "quartz-countertops",
+        "name": "Quartz Countertops",
+        "shortDescription": "Durable surfaces engineered for Chicago's extreme temperature swings.",
+        "description": "Chicago's freeze-thaw cycles wreak havoc on natural stone, but our quartz installations withstand the abuse while elevating your kitchen's aesthetic. We source slabs with Chicago's climate in mind—prioritizing brands with thermal shock resistance for homes near Lake Michigan.\n\nFor downtown high-rises, we offer lightweight options that meet condo board requirements. In Arlington Heights' ranch homes, we design waterfall edges that modernize without clashing with midcentury lines. Every template session includes heat-map analysis to prevent warping near radiators.\n\nOur sealed seams and under-mount sink installations prevent the moisture damage common in Naperville's humid summers. Choose from finishes that complement Chicago's design legacy—from steel-look slabs for industrial lofts to creamy whites for suburban light-filled spaces.",
+        "process": [
+          "Step 1: Digital templating with laser measurement tools",
+          "Step 2: Full-sample selection at our West Loop showroom",
+          "Step 3: Precision cutting with dust-free onsite fabrication",
+          "Step 4: Seam placement strategy for thermal expansion"
+        ],
+        "benefits": [
+          "Stain resistance against Chicago's deep-dish pizza nights",
+          "Non-porous surface prevents bacterial growth in humid months",
+          "Reinforced edges for heavy holiday cooking loads",
+          "UV-stable colors for sunlit breakfast nooks"
+        ],
+        "faq": [
+          {
+            "question": "Will quartz crack during Chicago winters?",
+            "answer": "Our installation includes expansion joints and thermally stable adhesives specifically formulated for the area's 70°F annual temperature swings."
+          },
+          {
+            "question": "How do you protect floors during installation?",
+            "answer": "We use stair-climber dollies and temporary floor protection systems developed for Evanston's narrow historic staircases."
+          }
+        ]
+      },
+      {
+        "slug": "smart-kitchen-upgrades",
+        "name": "Smart Kitchen Upgrades",
+        "shortDescription": "Technology integrations that respect Chicago's architectural heritage.",
+        "description": "Modern convenience shouldn't mean sacrificing your home's character. Our smart kitchen solutions blend seamlessly into Chicago's diverse housing stock—from hidden charging drawers in Victorian-era cabinets to under-counter refrigeration in Lincoln Square's galley kitchens.\n\nWe prioritize locally relevant tech: WiFi-enabled leak detectors for old plumbing systems, motion-activated task lighting for dark winter evenings, and appliance garage systems that conceal mixers in open-concept lofts. For Aurora's multigenerational households, we install discreet safety features like automatic stove shut-offs.\n\nEvery system undergoes cold-weather testing at our Bridgeport workshop. You'll get voice-controlled lighting that works through January's blizzards and touchless faucets with freeze protection for unheated mudrooms. We even program your devices with Chicago-specific commands—try \"Hey Google, preheat the oven for deep dish.\"",
+        "process": [
+          "Step 1: Home network assessment and compatibility check",
+          "Step 2: Concealed wiring plans preserving original moldings",
+          "Step 3: Smart device selection based on household habits",
+          "Step 4: Personalized training with troubleshooting manual"
+        ],
+        "benefits": [
+          "Discreet tech that doesn't clash with historic details",
+          "Whole-home integration for Chicago's interconnected living",
+          "Backup power options for frequent outages",
+          "Child-lock systems rated for Illinois safety codes"
+        ],
+        "faq": [
+          {
+            "question": "Will smart devices work in my brick bungalow?",
+            "answer": "We install WiFi extenders designed for thick masonry walls and place hubs in central locations—often repurposing original built-ins for seamless tech integration."
+          },
+          {
+            "question": "How do you protect electronics from winter condensation?",
+            "answer": "Our proprietary vapor barriers and strategic venting prevent moisture damage—a system perfected through years of servicing lakeside properties."
+          }
+        ]
+      },
+      {
+        "slug": "historic-kitchen-restoration",
+        "name": "Historic Kitchen Restoration",
+        "shortDescription": "Preserving Chicago's architectural legacy one kitchen at a time.",
+        "description": "Evanston's Arts and Crafts homes and Logan Square's worker cottages deserve kitchens that honor their past while meeting contemporary needs. Our restoration specialists combine archival research with modern craftsmanship to recreate period-appropriate details—from hexagonal tile patterns found in 1920s bungalows to authentic milk paint finishes.\n\nWe salvage original elements whenever possible, carefully restoring Chicago's distinctive features: built-in iceboxes converted to wine storage, clawfoot tubs repurposed as farmhouse sinks, and salvaged lumber milled into new countertops. For landmark-designated properties, we navigate permit processes with city preservation boards.\n\nEvery project begins with historical research at the Chicago Architecture Center. You'll receive documentation of your home's original layout alongside our sensitive modernization proposals. We even replicate vintage hardware using local foundries—because your 1910s kitchen should age gracefully for the next century.",
+        "process": [
+          "Step 1: Architectural history consultation and salvage assessment",
+          "Step 2: Materials sourcing from local architectural salvage yards",
+          "Step 3: Craft reproduction elements using period techniques",
+          "Step 4: Final finishes hand-applied by our restoration specialists"
+        ],
+        "benefits": [
+          "Tax credit documentation for historic districts",
+          "Salvaged materials from Chicagoland's architectural gems",
+          "Traditional joinery techniques for authentic repairs",
+          "Future-proof updates hidden behind original surfaces"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my home's original stained glass?",
+            "answer": "Our partnership with Chicago Art Glass allows us to reproduce intricate patterns using the same kilns and techniques as early 20th century artisans."
+          },
+          {
+            "question": "How do you update plumbing without damaging historic walls?",
+            "answer": "We use endoscopic cameras to map pipe routes and employ trenchless technology developed for Chicago's landmark buildings."
+          }
+        ]
+      },
+      {
+        "slug": "universal-design-kitchens",
+        "name": "Universal Design Kitchens",
+        "shortDescription": "Accessible layouts for Chicago's aging housing stock.",
+        "description": "Chicago's iconic two-flats and postwar ranches often present mobility challenges. Our universal design approach reimagines these spaces for comfortable aging-in-place—without compromising style. We lower countertops in Arlington Heights' midcentury kitchens using clever graduated heights that maintain clean lines. For Wicker Park's narrow row houses, we install space-saving appliances with accessible controls.\n\nEvery design considers Chicago's specific needs: heated flooring for arthritic joints during winter, task lighting positioned for seasonal affective disorder, and slip-resistant tile that stands up to salted boots. We even create custom solutions like retractable pot racks for wheelchair users in bungalows with limited cabinet space.\n\nOur certified aging-in-place specialists navigate Illinois building codes while preserving your home's character. The result? A kitchen that adapts to life's changes—whether that means accommodating grandchildren in Naperville or recovering from knee surgery in a Gold Coast high-rise.",
+        "process": [
+          "Step 1: Mobility assessment and future needs consultation",
+          "Step 2: Ergonomic layout planning with physical therapists",
+          "Step 3: Safety feature integration preserving aesthetics",
+          "Step 4: Adjustable systems for evolving requirements"
+        ],
+        "benefits": [
+          "Chicago-specific solutions for narrow stairwells",
+          "Multi-height work surfaces for diverse households",
+          "ADA-compliant designs that feel residential",
+          "Non-slip surfaces tested on icy entryways"
+        ],
+        "faq": [
+          {
+            "question": "Can universal design work in my compact condo?",
+            "answer": "We've perfected space-saving solutions for Chicago's smaller units, like toe-kick drawers and appliances with collapsible handles that meet accessibility standards."
+          },
+          {
+            "question": "How do you make vintage kitchens wheelchair accessible?",
+            "answer": "Our patented doorway widening techniques preserve original trim while creating necessary clearance—a method featured in Chicago Landmarks Commission case studies."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marjorie K.",
+        "rating": 5,
+        "service": "Historic Kitchen Restoration",
+        "text": "The team salvaged the original 1923 built-in pantry in our Logan Square two-flat and converted it to a functional spice kitchen. Their tile specialist matched the hexagonal border perfectly using fragments we found behind the walls. Five winters later, everything still looks immaculate.",
+        "date": "2025-01-15"
+      },
+      {
+        "name": "Andre S.",
+        "rating": 5,
+        "service": "Smart Kitchen Upgrades",
+        "text": "Our Gold Coast condo's new motion-activated under-cabinet lighting has been life-changing during dark winter mornings. The installers hid all wiring in the original moldings—you'd never know it wasn't part of the 1930s building. Even the doorman commented on how tasteful the tech upgrades are.",
+        "date": "2025-02-22"
+      },
+      {
+        "name": "Linh T.",
+        "rating": 5,
+        "service": "Quartz Countertops",
+        "text": "After two failed installations from other companies, Onyx finally gave us countertops that don't show condensation rings in our humid Naperville summers. They suggested a matte finish that complements our midcentury cabinets and included a hidden hot pad drawer for winter cookware storage.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "David R.",
+        "rating": 5,
+        "service": "Universal Design Kitchens",
+        "text": "My mother can now safely use her Evanston kitchen after Onyx's redesign. The pull-down shelving system means she doesn't strain reaching, and the heated floor prevents slips. Most importantly, it still looks like her historic home—not a clinical space.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Sophia M.",
+        "rating": 5,
+        "service": "Custom Cabinetry",
+        "text": "The custom banquette seating with hidden storage has transformed our Lincoln Park kitchen. It accommodates holiday crowds but tucks away neatly for daily use. The craftsmen even incorporated ventilation slots to prevent moisture buildup against our exterior brick wall.",
+        "date": "2025-03-10"
+      },
+      {
+        "name": "Carlos V.",
+        "rating": 5,
+        "service": "Smart Kitchen Upgrades",
+        "text": "Our Aurora multigenerational home needed tech that worked for everyone. Onyx installed voice-controlled lighting with Spanish and English commands, plus a stove that automatically turns off if left unattended. The kids love the charging drawer disguised as an old flour bin.",
+        "date": "2024-10-29"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Chicago Kitchen Remodeling Experts | Onyx Kitchen Remodel",
+        "description": "Chicago's trusted kitchen remodelers since 2012. Specializing in historic homes and climate-resistant designs for Naperville, Evanston, and beyond."
+      },
+      "about": {
+        "title": "About Our Chicago Kitchen Remodeling Company",
+        "description": "Learn how our local roots and Chicago-specific approach create kitchens that stand up to lake-effect weather and complement historic architecture."
+      },
+      "services": {
+        "title": "Chicago Kitchen Remodeling Services | Custom Solutions",
+        "description": "From quartz countertops for harsh winters to smart tech for bungalows, we design Chicago kitchens for how you really live."
+      },
+      "contact": {
+        "title": "Contact Onyx Kitchen Remodel | Chicago, IL",
+        "description": "Schedule your free kitchen design consultation with our Chicago remodeling team. Serving Cook County and surrounding suburbs."
+      },
+      "reviews": {
+        "title": "Chicago Kitchen Remodel Reviews | Onyx Client Stories",
+        "description": "See how we've transformed kitchens across Chicago's neighborhoods—from historic restorations to universal design solutions."
+      },
+      "service-areas": {
+        "title": "Chicago Suburbs Kitchen Remodeling | Onyx Service Areas",
+        "description": "Serving Naperville, Evanston, Arlington Heights and beyond with kitchen designs tailored to each suburb's unique housing styles."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Naperville",
+        "slug": "naperville-il",
+        "state": "IL",
+        "content": "Onyx Kitchen Remodel specializes in transforming kitchens in Naperville's upscale family homes, many built between the 1970s and 2000s. Our expertise includes modernizing outdated layouts, upgrading appliances for energy efficiency, and installing durable materials that withstand the area's harsh winters. Whether you're looking for a sleek contemporary design or a timeless traditional aesthetic, we tailor our remodels to fit Naperville's sophisticated suburban lifestyle. Our team understands the unique needs of Naperville homeowners, ensuring your kitchen is both beautiful and functional for years to come.",
+        "localContext": "Naperville features upscale family homes from the 1970s-2000s and experiences harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Lisle",
+          "Bolingbrook",
+          "Aurora"
+        ]
+      },
+      {
+        "city": "Aurora",
+        "slug": "aurora-il",
+        "state": "IL",
+        "content": "Serving Aurora's diverse housing stock, Onyx Kitchen Remodel brings top-tier craftsmanship to kitchens in homes ranging from the 1960s to the 2000s. We specialize in adapting older layouts to modern lifestyles, incorporating weather-resistant materials to handle Aurora's cold winters. From cozy bungalows to spacious suburban homes, we create kitchens that blend functionality with style. Our local knowledge ensures your remodel enhances your home's value while meeting Aurora's unique climate challenges.",
+        "localContext": "Aurora boasts diverse housing from the 1960s-2000s and faces harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Naperville",
+          "Montgomery",
+          "North Aurora"
+        ]
+      },
+      {
+        "city": "Schaumburg",
+        "slug": "schaumburg-il",
+        "state": "IL",
+        "content": "Onyx Kitchen Remodel excels at updating kitchens in Schaumburg's 1970s-80s suburban developments, where many homes are ready for a modern refresh. We focus on optimizing space in these often-compact layouts, using durable materials that stand up to the area's snowy winters. Whether you're preparing for resale or simply want a more functional kitchen, our designs balance practicality and elegance. Schaumburg homeowners trust us to deliver remodels that align with the community's suburban charm.",
+        "localContext": "Schaumburg is known for its 1970s-80s suburban developments and experiences harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Hoffman Estates",
+          "Roselle",
+          "Hanover Park"
+        ]
+      },
+      {
+        "city": "Evanston",
+        "slug": "evanston-il",
+        "state": "IL",
+        "content": "In Evanston, Onyx Kitchen Remodel specializes in preserving the character of historic homes (1890s-1930s) while introducing modern kitchen conveniences. We carefully blend period-appropriate details with contemporary functionality, ensuring your kitchen honors Evanston's architectural heritage. Our expertise includes insulating older homes against the region's cold winters and upgrading layouts for today's cooking needs. Whether you're near Northwestern University or in a quiet residential area, we create kitchens that reflect Evanston's unique charm.",
+        "localContext": "Evanston is home to historic 1890s-1930s properties and faces harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Skokie",
+          "Wilmette",
+          "Chicago"
+        ]
+      },
+      {
+        "city": "Arlington Heights",
+        "slug": "arlington-heights-il",
+        "state": "IL",
+        "content": "Onyx Kitchen Remodel revitalizes kitchens in Arlington Heights' established ranch homes (1950s-70s), where many original kitchens need functional upgrades. We specialize in opening up closed-off layouts and installing winter-ready materials that handle the area's heavy snow and ice. Our designs respect the mid-century character of these homes while introducing modern storage solutions and energy-efficient appliances. Arlington Heights homeowners rely on us for remodels that enhance daily living and home value.",
+        "localContext": "Arlington Heights features 1950s-70s ranch homes and experiences harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Palatine",
+          "Mount Prospect",
+          "Buffalo Grove"
+        ]
+      },
+      {
+        "city": "Oak Park",
+        "slug": "oak-park-il",
+        "state": "IL",
+        "content": "Onyx Kitchen Remodel brings precision craftsmanship to Oak Park's historic homes, many dating to the early 1900s. We specialize in preserving architectural details while modernizing kitchens for today's families. Our designs incorporate materials that withstand the Midwest's freezing winters, ensuring longevity. From Frank Lloyd Wright-inspired homes to classic bungalows, we create kitchens that honor Oak Park's rich design legacy while meeting modern needs.",
+        "localContext": "Oak Park is renowned for its historic early-1900s homes and faces harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "River Forest",
+          "Forest Park",
+          "Chicago"
+        ]
+      },
+      {
+        "city": "Wheaton",
+        "slug": "wheaton-il",
+        "state": "IL",
+        "content": "Serving Wheaton's mix of mid-century and newer homes, Onyx Kitchen Remodel creates kitchens that balance tradition and innovation. We excel at updating 1950s-80s layouts with open-concept designs while using materials resistant to winter weather damage. Whether you're in a classic colonial or a modern build, our remodels reflect Wheaton's family-oriented community. Local homeowners trust us for kitchens that withstand Illinois' cold climate while offering timeless style.",
+        "localContext": "Wheaton features mid-century to contemporary homes and experiences harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Glen Ellyn",
+          "Carol Stream",
+          "Winfield"
+        ]
+      },
+      {
+        "city": "Glenview",
+        "slug": "glenview-il",
+        "state": "IL",
+        "content": "Onyx Kitchen Remodel transforms kitchens in Glenview's diverse housing stock, from post-WWII ranches to modern luxury homes. We prioritize durable materials that handle the area's heavy snowfall and freezing temperatures. Our designs enhance Glenview's upscale suburban aesthetic, whether you're renovating a 1960s split-level or a new construction. Local homeowners appreciate our attention to detail and ability to create kitchens that stand up to Midwest winters while looking stunning year-round.",
+        "localContext": "Glenview offers diverse housing from post-WWII to modern builds and faces harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Northbrook",
+          "Niles",
+          "Skokie"
+        ]
+      },
+      {
+        "city": "Libertyville",
+        "slug": "libertyville-il",
+        "state": "IL",
+        "content": "In Libertyville, Onyx Kitchen Remodel specializes in updating kitchens in the area's charming older homes while accommodating modern lifestyles. We work with materials that resist moisture damage from winter snow and ice, ensuring long-lasting beauty. From Victorian-era houses to mid-century ranches, our designs respect Libertyville's architectural diversity. Local homeowners trust us to deliver kitchens that combine historic character with contemporary convenience.",
+        "localContext": "Libertyville features Victorian to mid-century homes and experiences harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Vernon Hills",
+          "Mundelein",
+          "Gurnee"
+        ]
+      },
+      {
+        "city": "Orland Park",
+        "slug": "orland-park-il",
+        "state": "IL",
+        "content": "Onyx Kitchen Remodel serves Orland Park's growing community, where many 1980s-2000s homes benefit from kitchen upgrades. We focus on creating spacious, functional layouts with materials that endure the region's freeze-thaw cycles. Whether you're in a traditional colonial or a modern open-concept home, our designs reflect Orland Park's suburban appeal. Local homeowners appreciate our ability to deliver kitchens that withstand harsh winters while offering stylish, practical spaces.",
+        "localContext": "Orland Park features 1980s-2000s suburban homes and experiences harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Tinley Park",
+          "Palos Heights",
+          "Mokena"
+        ]
+      },
+      {
+        "city": "Buffalo Grove",
+        "slug": "buffalo-grove-il",
+        "state": "IL",
+        "content": "Serving Buffalo Grove's established neighborhoods, Onyx Kitchen Remodel specializes in updating 1970s-90s kitchens for modern living. We incorporate weather-resistant materials to handle the area's snowy winters while creating bright, inviting spaces. Our designs respect Buffalo Grove's suburban character while introducing contemporary functionality. Local homeowners trust us to deliver kitchens that balance durability and style, perfect for Illinois' challenging climate.",
+        "localContext": "Buffalo Grove features 1970s-90s suburban homes and experiences harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "Wheeling",
+          "Deerfield",
+          "Long Grove"
+        ]
+      },
+      {
+        "city": "Elgin",
+        "slug": "elgin-il",
+        "state": "IL",
+        "content": "Onyx Kitchen Remodel transforms kitchens throughout Elgin's diverse housing stock, from historic downtown properties to newer suburban developments. We specialize in weatherproofing older homes against winter damage while modernizing layouts. Our designs respect Elgin's architectural heritage while meeting today's cooking and entertaining needs. Local homeowners appreciate our ability to create kitchens that withstand Illinois' harsh winters while reflecting their personal style.",
+        "localContext": "Elgin offers diverse housing from historic to modern and experiences harsh winters with heavy snow and ice.",
+        "nearbyAreas": [
+          "South Elgin",
+          "St. Charles",
+          "West Dundee"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "custom-cabinetry": "/images/service-custom-cabinetry.webp",
+      "quartz-countertops": "/images/service-quartz-countertops.webp",
+      "smart-kitchen-upgrades": "/images/service-smart-kitchen-upgrades.webp",
+      "historic-kitchen-restoration": "/images/service-historic-kitchen-restoration.webp",
+      "universal-design-kitchens": "/images/service-universal-design-kitchens.webp"
+    },
+    "servicesResponsive": {
+      "custom-cabinetry": {
+        "src": "/images/service-custom-cabinetry.webp",
+        "srcset": "/images/service-custom-cabinetry-400w.webp 400w, /images/service-custom-cabinetry-800w.webp 800w, /images/service-custom-cabinetry-1200w.webp 1200w, /images/service-custom-cabinetry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "quartz-countertops": {
+        "src": "/images/service-quartz-countertops.webp",
+        "srcset": "/images/service-quartz-countertops-400w.webp 400w, /images/service-quartz-countertops-800w.webp 800w, /images/service-quartz-countertops-1200w.webp 1200w, /images/service-quartz-countertops.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-kitchen-upgrades": {
+        "src": "/images/service-smart-kitchen-upgrades.webp",
+        "srcset": "/images/service-smart-kitchen-upgrades-400w.webp 400w, /images/service-smart-kitchen-upgrades-800w.webp 800w, /images/service-smart-kitchen-upgrades-1200w.webp 1200w, /images/service-smart-kitchen-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-kitchen-restoration": {
+        "src": "/images/service-historic-kitchen-restoration.webp",
+        "srcset": "/images/service-historic-kitchen-restoration-400w.webp 400w, /images/service-historic-kitchen-restoration-800w.webp 800w, /images/service-historic-kitchen-restoration-1200w.webp 1200w, /images/service-historic-kitchen-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "universal-design-kitchens": {
+        "src": "/images/service-universal-design-kitchens.webp",
+        "srcset": "/images/service-universal-design-kitchens-400w.webp 400w, /images/service-universal-design-kitchens-800w.webp 800w, /images/service-universal-design-kitchens-1200w.webp 1200w, /images/service-universal-design-kitchens.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
